@@ -1,0 +1,436 @@
+/* Standard CSS */
+.topnav {
+  background-color: black;
+  color: white;
+  text-align: left;
+  padding: 20px;
+}
+
+.topnav a {
+  color: white;
+  font-size: 120%;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.topnav a.active {
+  border-bottom: 1px solid white;
+}
+
+.footer {
+  background-color: black;
+  padding: 1% 1% 1% 1%
+}
+
+.footer p {
+  color: white;
+  text-align: center;
+}
+
+
+/* Home Page CSS */
+
+.homeFeature {
+  background-image: url('/Users/Jared 1/Documents/Petals Paws and Beans/Pictures/_H8A9832-Edit-M.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: auto;
+  margin-top: -54px;
+  margin-bottom: -53px;
+}
+
+.homeFeature h1 {
+  font-size: 550%;
+  padding-top: 15%;
+  padding-bottom: 15%;
+  color: white;
+  text-align: center;
+}
+
+.aboutFeature {
+  display: flex;
+  border-style: solid;
+  border-color: black;
+  margin-bottom: 1%;
+  text-align: center;
+  align-items: center;
+}
+
+.aboutText {
+  text-align: center;
+  flex-basis: 50%;
+  padding-bottom: 2%;
+}
+
+.aboutText h2 {
+  font-size: 300%;
+}
+
+.aboutText p {
+  font-family: Arial, sans-serif;
+  font-size: 22px;
+  line-height: 1.5;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.aboutText a {
+  font-size: 22px;
+}
+
+.aboutImage {
+  flex-basis: 50%;
+}
+
+.menuFeature {
+  display: flex;
+  border-style: solid;
+  border-color: black;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 1%;
+}
+
+.homeMenuImage {
+  flex-basis: 50%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.homeMenuImage img {
+  width: 100%;
+  height: 100%;
+  max-width: 600px;
+  max-height: 400px;
+}
+
+.homeMenuText {
+  text-align: center;
+  flex-basis: 50%;
+}
+
+.homeMenuText h2 {
+  font-size: 300%;
+}
+
+.homeMenuText p {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  font-size: 22px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.homeMenuText a {
+  font-size: 22px;
+}
+
+.galleryFeature {
+  text-align: center;
+  font-size: 250%;
+}
+
+.imgArea {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.singleImg {
+  padding: 0 20px 20px;
+}
+
+.singleImg img:hover {
+  opacity: .3;
+  transition: .9s;
+}
+
+.contactFeature {
+  display: flex;
+  border-style: solid;
+  border-color: black;
+  text-align: center;
+  justify-content: center;
+}
+
+.homeContactMap {
+  flex-basis: 50%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.homeContactText {
+  text-align: center;
+  flex-basis: 50%;
+}
+
+.homeContactText h2 {
+  font-size: 300%;
+}
+
+.homeContactText p {
+  font-family: Arial, sans-serif;
+  font-size: 22px;
+  line-height: 1.5;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.homeContactText a {
+  font-size: 22px;
+}
+
+/* ABOUT PAGE CSS */
+
+.aboutTitle h1 {
+  text-align: center;
+  font-size: 500%;
+}
+
+.ourStoryContainer {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: #526F35;
+  border-style: solid;
+}
+
+.ourStoryText {
+  flex-basis: 50%;
+  text-align: center;
+}
+
+.ourStoryImage {
+  flex-basis: 50%;
+}
+
+.ourStoryImage img {
+  width: 620px;
+  height: 500px;
+}
+
+.ourStoryText h2 {
+  text-align: center;
+  font-size: 300%;
+}
+
+.ourStoryText p {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  font-size: 22px;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/* About Page New Hope YQL */
+
+.newHopeYQL {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-style: solid;
+}
+
+.newHopeImage {
+  flex-basis: 50%;
+}
+
+.newHopeText {
+  flex-basis: 50%;
+}
+
+.newHopeImage img {
+  width: 500px;
+  height: 500px;
+}
+
+.newHopeText p {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 22px;
+  line-height: 1.5;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.newHopeText h2 {
+  font-size: 300%;
+  text-align: center;
+}
+
+/* About Page Store Hours */
+
+.storeHours {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-style: solid;
+  background-color: #526F35;
+}
+
+.storeHoursText {
+  flex-basis: 50%;
+  text-align: center;
+}
+
+.storeHoursImage {
+  flex-basis: 50%;
+}
+
+.storeHoursImage img {
+  width: 500px;
+  height: 500px;
+}
+
+.storeHoursText h2 {
+  text-align: center;
+  font-size: 300%;
+}
+
+.storeHoursText p {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  font-size: 22px;
+  line-height: 1.5;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+
+
+
+/* Menu Page CSS */
+
+.menuTitle {
+  background-image: url('/Users/Jared 1/Documents/Petals Paws and Beans/Pictures/orange cup.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 785px;
+  margin-top: -3%;
+}
+
+.menuTitle h1 {
+  font-size: 600%;
+  color: white;
+  text-align: center;
+  border: 1px solid white;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+.menuMenu {
+  display: flex;
+  justify-content: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.coffeeAndOther {
+  flex-grow: 1;
+}
+
+.coffeeAndOther table, th, tr, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.coffeeAndOther th {
+  font-family: Helvetica, sans-serif;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.coffeeAndOther td {
+  font-family: Apple Chancery, cursive;
+  font-size: 22px;
+  padding: 10px;
+}
+
+.menuTeaFog {
+  flex-grow: 1;
+}
+
+.menuTeaFog table, th, tr, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menuTeaFog th {
+  font-family: Helvetica, sans-serif;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.menuTeaFog td {
+  font-size: 22px;
+  padding: 10px;
+  font-family: Apple Chancery, cursive;
+}
+
+.espressoBar {
+  flex-grow: 1;
+}
+
+.espressoBar table, th, tr, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.espressoBar th {
+  font-family: Helvetica, sans-serif;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.espressoBar td {
+  font-family: Apple Chancery, cursive;
+  font-size: 22px;
+  padding: 10px;
+
+/*Optima, sans-serif; */
+
+/*Contact Page Css */
+
+input[type=text], select, textarea {
+ width: 100%;
+ pamargin */
+ margin-bottom: 16px;
+ resize: vertical
+}
+
+ padding: 12px;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ box-sizing: border-box;
+ margin-top: 6px;
+
+input[type=submit] {
+ background-color: black;
+ color: white;
+ padding: 12px 20px;
+ border: none;
+ border-radius: 4px;
+ cursor: pointer;
+}
+
+input[type=submit]:hover {
+ background-color: #45a049;
+}
+
+.container {
+   width: 40%;
+ border-radius: 5px;
+ background-color: #f2f2f2;
+ padding: 20px;
+}
