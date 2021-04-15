@@ -411,7 +411,10 @@ body {
 }
 
 /*Order Page CSS*/
-.orderPage
+.orderTitle h1{
+  text-align: center;
+  font-size: 200%;
+}
 
 /*Contact Page Css */
 
